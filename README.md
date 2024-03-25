@@ -496,7 +496,7 @@ insert into funcionario (nome, email, departamento) values ('Adriano Imperador',
 ```
 ### Atualização:
 ```
-update funcionario set nome = 'Clarisse Falcão' where id = 3;
+update funcionario set nome = 'Clarisse Falcão' where id = 9;
 
 update quiz set prazo = '2024-12-15' where id = 1;
 
