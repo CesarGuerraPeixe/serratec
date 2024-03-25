@@ -42,7 +42,7 @@ create table resposta
 
 insert into funcionario (nome, email, departamento)
 values
-('Cesar Guerra', 'cesargpmuller@gmail.com', 'RH'),
+('Cesar Guerra Peixe', 'cesargpmuller@gmail.com', 'RH'),
 ('Mateus Zebendo', 'mateuszeze@gmail.com', default),
 ('Laura Smith', 'laurasmith@example.com', 'Financeiro'),
 ('Pedro Gonçalves', 'pedrogoncalves@example.com', 'Marketing'),
@@ -484,7 +484,7 @@ values (1, 1, 'b', '2024-03-25');
 
 insert into funcionario (nome, email, departamento) values ('Adriano Imperador', 'adrianojogamuito@example.com', default);
 
-update funcionario set nome = 'Clarisse Falcão' where id = 3;
+update funcionario set nome = 'Clarisse Falcão' where id = 9;
 
 update quiz set prazo = '2024-12-15' where id = 1;
 
