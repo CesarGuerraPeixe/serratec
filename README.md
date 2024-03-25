@@ -49,12 +49,12 @@ create table resposta
 ```
 insert into funcionario (nome, email, departamento)
 values
-('Cesar Guerra', 'cesargpmuller@gmail.com', 'RH'),
-('Ícaro Gaspar', 'ikaro460@gmail.com', default),
-('Laura Smith', 'laurasmith@example.com', 'Financeiro'),
-('Pedro Gonçalves', 'pedrogoncalves@example.com', 'Marketing'),
-('Mariana Silva', 'marianasilva@example.com', 'Vendas'),
-('Lucas Rodrigues', 'lucasrodrigues@example.com', 'RH'),
+('Cesar Guerra Peixe', 'cesargpmuller@gmail.com', 'RH'),
+('Mateus Zebendo', 'mateuszeze@gmail.com', default),
+('Victor Siqueira', 'vg_siqueira@hotmail.com', default),
+('Artur Foster de Souza', 'arturfosterdesouza@gmail.com', 'Marketing'),
+('Gustavo Pinheiro', 'gv.pinheiro@outlook.com', default),
+('Bruno Jacomelli', 'jacomellib@gmail.com', default),
 ('Gabriela Pereira', 'gabrielapereira@example.com', default),
 ('Rafael Costa', 'rafaelcosta@example.com', 'Financeiro'),
 ('Ana Carvalho', 'anacarvalho@example.com', 'Marketing'),
