@@ -3,7 +3,7 @@
 ![Modelo Logico](./modelo%20logico.png)
 ## Criação do banco de dados:
 ```
-create database quiz_campanha;
+create database quiz_campanha_grupo1;
 
 create table funcionario
 (
