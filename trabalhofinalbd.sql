@@ -46,7 +46,7 @@ values
 ('Mateus Zebendo', 'mateuszeze@gmail.com', default),
 ('Victor Siqueira', 'vg_siqueira@hotmail.com', default),
 ('Artur Foster de Souza', 'arturfosterdesouza@gmail.com', 'Marketing'),
-('Mariana Silva', 'marianasilva@example.com', 'Vendas'),
+('Gustavo Pinheiro', 'gv.pinheiro@outlook.com', default),
 ('Bruno Jacomelli', 'jacomellib@gmail.com', default),
 ('Gabriela Pereira', 'gabrielapereira@example.com', default),
 ('Rafael Costa', 'rafaelcosta@example.com', 'Financeiro'),
