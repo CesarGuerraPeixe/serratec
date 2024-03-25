@@ -44,7 +44,7 @@ insert into funcionario (nome, email, departamento)
 values
 ('Cesar Guerra Peixe', 'cesargpmuller@gmail.com', 'RH'),
 ('Mateus Zebendo', 'mateuszeze@gmail.com', default),
-('Laura Smith', 'laurasmith@example.com', 'Financeiro'),
+('Victor Siqueira', 'vg_siqueira@hotmail.com', default),
 ('Artur Foster de Souza', 'arturfosterdesouza@gmail.com', 'Marketing'),
 ('Mariana Silva', 'marianasilva@example.com', 'Vendas'),
 ('Bruno Jacomelli', 'jacomellib@gmail.com', default),
