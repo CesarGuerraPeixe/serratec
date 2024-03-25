@@ -43,7 +43,7 @@ create table resposta
 insert into funcionario (nome, email, departamento)
 values
 ('Cesar Guerra', 'cesargpmuller@gmail.com', 'RH'),
-('Ícaro Gaspar', 'ikaro460@gmail.com', default),
+('Mateus Zebendo', 'mateuszeze@gmail.com', default),
 ('Laura Smith', 'laurasmith@example.com', 'Financeiro'),
 ('Pedro Gonçalves', 'pedrogoncalves@example.com', 'Marketing'),
 ('Mariana Silva', 'marianasilva@example.com', 'Vendas'),
