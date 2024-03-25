@@ -1,9 +1,4 @@
-# Projeto Banco de Dados - Grupo 1
-## Modelo lógico:
-![Modelo Logico](./modelo%20logico.png)
-## Criação do banco de dados:
-```
-create database quiz_campanha;
+create database quiz_campanha_grupo1;
 
 create table funcionario
 (
@@ -44,9 +39,7 @@ create table resposta
    foreign key (funcionario_id) references funcionario(id),
    foreign key (pergunta_id) references pergunta(id)
 );
-```
-## População de dados:
-```
+
 insert into funcionario (nome, email, departamento)
 values
 ('Cesar Guerra', 'cesargpmuller@gmail.com', 'RH'),
@@ -478,10 +471,7 @@ values
 (15, 23, 'a', default),
 (15, 24, 'b', default),
 (15, 25, 'c', default);
-```
-## Consulta SQL:
-### Inserção:
-```
+
 insert into funcionario (nome, email, departamento) values ('João Silva', 'joao.silva@example.com', 'RH');
 
 insert into quiz (tema, descricao, prazo) values ('Matemática Básica', 'Quiz sobre conceitos fundamentais de matemática', '2024-12-31');
@@ -493,17 +483,13 @@ insert into resposta (funcionario_id, pergunta_id, resposta_funcionario, data_re
 values (1, 1, 'b', '2024-03-25');
 
 insert into funcionario (nome, email, departamento) values ('Adriano Imperador', 'adrianojogamuito@example.com', default);
-```
-### Atualização:
-```
+
 update funcionario set nome = 'Clarisse Falcão' where id = 3;
 
 update quiz set prazo = '2024-12-15' where id = 1;
 
 update resposta set resposta_funcionario = 'c' where id = 1;
-```
-### Exclusão:
-```
+
 delete from funcionario where id = 17;
 
 delete from resposta where id = 376;
@@ -511,9 +497,7 @@ delete from resposta where id = 376;
 delete from pergunta where id = 26;
 
 delete from quiz where id = 6;
-```
-### Consulta de dados:
-```
+
 select * from funcionario;
 
 select * from quiz;
@@ -521,9 +505,7 @@ select * from quiz;
 select * from pergunta;
 
 select * from resposta;
-```
-## Consultar os funcionários que participaram de uma determinada campanha de quiz e sua pontuação:
-```
+
 select 
 f.id as funcionario_id,
 f.nome as nome_funcionario,
@@ -542,9 +524,7 @@ group by
 f.id, q.id
 order by 
 funcionario_id;
-```
-## Consultar os funcionários que obtiveram a maior pontuação:
-```
+
 select 
 f.nome as nome_funcionario,
 sum(case when r.resposta_funcionario = p.resposta_correta then 1 else 0 end) as pontuacao_total
@@ -559,4 +539,5 @@ f.id
 order by 
 pontuacao_total desc
 limit 3;
-```
+
+
