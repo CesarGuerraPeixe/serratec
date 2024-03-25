@@ -45,7 +45,7 @@ values
 ('Cesar Guerra Peixe', 'cesargpmuller@gmail.com', 'RH'),
 ('Mateus Zebendo', 'mateuszeze@gmail.com', default),
 ('Laura Smith', 'laurasmith@example.com', 'Financeiro'),
-('Pedro Gonçalves', 'pedrogoncalves@example.com', 'Marketing'),
+('Artur Foster de Souza', 'arturfosterdesouza@gmail.com', 'Marketing'),
 ('Mariana Silva', 'marianasilva@example.com', 'Vendas'),
 ('Lucas Rodrigues', 'lucasrodrigues@example.com', 'RH'),
 ('Gabriela Pereira', 'gabrielapereira@example.com', default),
