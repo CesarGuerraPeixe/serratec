@@ -1,4 +1,11 @@
 # Projeto Banco de Dados - Grupo 1
+## Alunos:
+Cesar Guerra Peixe
+Mateus Zebendo
+Victor Siqueira
+Artur Foster de Souza
+Gustavo Pinheiro
+Bruno Jacomelli
 ## Modelo lógico:
 ![Modelo Logico](./modelo%20logico.png)
 ## Criação do banco de dados:
