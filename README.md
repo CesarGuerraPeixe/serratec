@@ -1,6 +1,6 @@
 # Projeto Banco de Dados - Grupo 1
 ## Alunos:
-Cesar Guerra Peixe, 
+César Guerra Peixe, 
 
 Mateus Zebendo,
 
